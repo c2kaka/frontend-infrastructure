@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "babel index.js -d lib"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +15,9 @@
     "@babel/plugin-transform-modules-umd": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
     "babel-jest": "^26.6.3",
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1"
   },
   "dependencies": {
     "axios": "^0.21.1"
